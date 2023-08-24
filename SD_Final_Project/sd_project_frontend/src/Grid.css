@@ -1,0 +1,30 @@
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: bottom;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100px;
+    width: 300px;
+    background-color: #777777;
+    position: fixed;
+    right: 30px;
+    bottom: 120px;
+}
